@@ -18,15 +18,16 @@ package org.dimigo.oop;
 
 public class CarTest {
 	public static void main(String[] args) {
-		Car car1 = new Car();
-		Car car2 = new Car();
-		Car car3 = new Car();
+		Car2 car1 = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car2 car2 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+		Car2 car3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 		
-		Input(car1, car2, car3);
+		//Input(car1, car2, car3);
+		Output(car1, car2, car3);
 
 	}
 	
-	static void Input(Car car1, Car car2, Car car3) {
+	static void Input(Car2 car1, Car2 car2, Car2 car3) {
 		car1.setCompany("현대자동차");
 		car1.setModel("제네시스");
 		car1.setColor("검정색");
@@ -44,7 +45,9 @@ public class CarTest {
 		car3.setColor("회색");
 		car3.setMaxSpeed(200);
 		car3.setPrice(38000000);
-		
+		}
+	
+	static void Output(Car2 car1, Car2 car2, Car2 car3) {
 		System.out.println("<< 자동차 목록 >>");
 		
 		System.out.println("제조사명 : " + car1.getCompany());
@@ -68,5 +71,6 @@ public class CarTest {
 		System.out.println("색상 : " + car3.getColor());
 		System.out.println("최대속도 : " + car3.getMaxSpeed() + "km");
 		System.out.println("가격 : " + String.format("%,d", car3.getPrice()) + "원");
+
 	}
 }
