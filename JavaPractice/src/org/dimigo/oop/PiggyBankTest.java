@@ -34,7 +34,7 @@ public class PiggyBankTest {
 		
 		PiggyBank.putMoney(mem3, 1000);
 		
-		PiggyBank.steelMoney(mem4, 10000);
+		PiggyBank.stealMoney(mem4, 10000);
 		
 		PiggyBank.printBalance();
 	}

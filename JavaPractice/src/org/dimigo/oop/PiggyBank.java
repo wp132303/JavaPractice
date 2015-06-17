@@ -24,7 +24,7 @@ public class PiggyBank {
 		balance += amount;
 	}
 	
-	public static void steelMoney(FamilyMember member, int amount) {
+	public static void stealMoney(FamilyMember member, int amount) {
 		System.out.println(member.getMemberName() + " " + amount + "원 뺌");
 		balance -= amount;
 	}
