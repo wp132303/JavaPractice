@@ -46,6 +46,7 @@ public class SmartPhone {
 	}
 	
 	public void pay() {
+		System.out.println(company + "페이로 결제합니다.");
 	}
 	
 	public void useSpecialFunction() {
