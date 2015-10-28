@@ -22,7 +22,7 @@ import java.util.List;
 public class MelonChart {
 
 	public static void main(String[] args) {
-		List<Music> list = new ArrayList<Music>();
+		List<Music> list = new ArrayList<>();
 // 		첫 번쨰 방법
 //		Music m = new Music("-", "-");
 //		list.add(m);
@@ -61,4 +61,28 @@ public class MelonChart {
 		}
 		System.out.println();
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void printList2(List<Music> list) {
+		int i = 1;
+		for (Music m : list) {
+			System.out.println(i + ". " + m);
+			i++;
+		}
+		System.out.println();
+	}
+	
+	
+	
+	
+	
 }
+
+

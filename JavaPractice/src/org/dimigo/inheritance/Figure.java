@@ -16,7 +16,7 @@ package org.dimigo.inheritance;
  * @version	: 1.0
  */
 
-public class Figure {
+public class Figure{
 	private int centerX;
 	private int centerY;
 	

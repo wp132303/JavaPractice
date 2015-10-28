@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 /**
  * <pre>
@@ -54,20 +55,28 @@ public class MelonGenreChart {
 		
 		
 		
-		
 	}
 	
 	public static void printMap(Map<String, List<Music>> map) {
-		for (String key : map.keySet()) {
+//		for (String key : map.keySet()) {
+//			int i=1;
+//			System.out.println("[" + key + "]");
+//			ArrayList<Music> value = (ArrayList<Music>) map.get(key);
+//			for (Music a : value) {
+//				System.out.println(i + ". " + a);
+//				i++;
+//			}
+//		}
+//	
+		for (Entry<String, List<Music>> key : map.entrySet()) {
 			int i=1;
-			System.out.println("[" + key + "]");
-			ArrayList<Music> value = (ArrayList<Music>) map.get(key);
+			System.out.println("[" + key.getKey() + "]");
+			ArrayList<Music> value = (ArrayList<Music>)key.getValue();
 			for (Music a : value) {
 				System.out.println(i + ". " + a);
 				i++;
 			}
 		}
-		
 	
 	}
 }
