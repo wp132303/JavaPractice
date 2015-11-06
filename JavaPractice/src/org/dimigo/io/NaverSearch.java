@@ -89,7 +89,7 @@ public class NaverSearch {
 	        StringBuilder sb2 = new StringBuilder();
 	     	
 	     	for (Movie movie : movieList) {
-	     		sb2.append(i + ". " + movie.getTitle() + " - [" + movie.getActors() + "]" + "\n");
+	     		sb2.append(i + ". " + movie.getTitle() + " - [" + movie.getActors() + "]" + "");
 	        	System.out.println(i++ + ". " + movie.getTitle() + " - [" + movie.getActors() + "]");
 	        }
 	        
