@@ -14,4 +14,51 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/org/dimigo/thread/ServerThread.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/ServerThread.java</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/ServerThread2.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/ServerThread2.java</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/ServerThread3.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/ServerThread3.java</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/ServerThread4.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/ServerThread4.java</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/WebServer.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/WebServer.java</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/flower.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/flower.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/index.html</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/index.html</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/kakao.png</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/kakao.png</locationURI>
+		</link>
+		<link>
+			<name>src/org/dimigo/thread/main.html</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/thread/main.html</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
